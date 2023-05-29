@@ -21,7 +21,7 @@ Please download dataset [SIGF](https://github.com/XiaofeiWang2018/DeepGF).
 ## Training
 
 ```
-python train.py --name exp --strategy_list [680, 172, 172, 88, 80, 48]
+python train.py --name exp --strategy_list 680 172 172 88 80 48
 ```
 
 ## Acknowledgments
