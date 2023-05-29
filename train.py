@@ -14,7 +14,6 @@ from datetime import datetime
 mode='Glim-net'
 test_num = 348
 lr_change= [3*1e-8, 1*1e-7, 6*1e-6, 6*1e-6, 1*1e-5, 5*1e-7]
-throw_rate=0.5
 strategy_num=5
 strategy_list = [680, 172, 172, 88, 80, 48]
 strategy_epoch_duration=[5,5,5,5,5,5]
@@ -54,8 +53,6 @@ throw_txt=f"{save_path}/throw.txt"
 
 with open(config_txt, "w+")as f0:
     f0.write('mode: ' + mode)
-    f0.write('\n')
-    f0.write('throw_rate: %.3f ' % throw_rate)
     f0.write('\n')
     f0.write('strategy_num: %d ' % strategy_num)
     f0.write('\n')
